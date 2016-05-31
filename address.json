@@ -1,0 +1,12 @@
+{
+"address":
+  {
+   "streetnumber":"123",
+   "streetname":"Main Street",
+   "secondaryaddress":"BLDG 12",
+   "city":"San Francisco",
+   "statecode":"CA",
+   "zipcode":"94111"
+  }
+}
+	
