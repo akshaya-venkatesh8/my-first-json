@@ -1,5 +1,5 @@
 {
- "$schema": "http://github.com/akshaya-venkatesh8/my-first-json",
+ "$schema": "http://json-schema.org/draft-04/schema#",
 
 
      "address":{
@@ -11,16 +11,16 @@
 	        "streetname":{
 				"type":"string",
 				"minLength":1,
-				"maxLength":20
+				"maxLength":34
 			      },
 		"secondaryaddress":{
 				"type":"string",
-				"pattern": "APT|BSMT|DEPT|FL|FRNT|HNGR|KEY|LBBY|LOT|LOWR|OFC|PH|PIER|REAR|RM|SIDE|SLIP|SPC|STOP|STE|TRLR|UNIT|UPPR|BLDG [0-9]{2}"
+				"pattern": "APT|BSMT|DEPT|FL|FRNT|HNGR|KEY|LBBY|LOT|LOWR|OFC|PH|PIER|REAR|RM|SIDE|SLIP|SPC|STOP|STE|TRLR|UNIT|UPPR|BLDG|[A-Z]{3} [0-9]{2}([0-9])?"
 			       },
 		"city":{
 			"type":"string",
 			"minLength":1,
-			"maxLength":20
+			"maxLength":24
 		       },
 		"statecode":{
 		             "type":"string",
